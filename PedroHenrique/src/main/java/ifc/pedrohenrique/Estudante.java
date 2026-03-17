@@ -22,6 +22,7 @@ public class Estudante {
         private String dataDeIngresso;
         private String SemestreInicial;
         private String SituancaoAcademica;
+        private Sting digito;
         
 
         
@@ -44,5 +45,7 @@ public class Estudante {
       public static void setNome(String _nome){
           nome = _nome;
       }
-
+      public static void setMatricula(String digito){ 
+          digito = digito;
+      }
 }
