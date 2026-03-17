@@ -14,9 +14,14 @@ public class Estudante {
         private static String nome;
         private Date dataNascimento;
         private String cpf;
-        char genero;
+        private char genero;
         private String matricula;
         private String email;
+        private String telefone;
+        private String dataDeIngresso;
+        private String SemestreInicial;
+        private String SituancaoAcademica;
+
         
         public Estudante(){
             this.nome = "Nobody";
@@ -37,8 +42,5 @@ public class Estudante {
       public static void setNome(String _nome){
           nome = _nome;
       }
-
-
-
 
 }
