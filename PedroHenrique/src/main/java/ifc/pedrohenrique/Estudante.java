@@ -17,10 +17,12 @@ public class Estudante {
         private char genero;
         private String matricula;
         private String email;
+        private String nivelEnsino;
         private String telefone;
         private String dataDeIngresso;
         private String SemestreInicial;
         private String SituancaoAcademica;
+        
 
         
         public Estudante(){
