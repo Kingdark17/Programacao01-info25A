@@ -22,10 +22,4 @@ public class Professor {
         private Date dataNascimento;
         private String cpf;
         private char genero;
-        
-       
-       
-        private String dataDeIngresso;
-        private String SemestreInicial;
-        private String SituancaoAcademica;
 }
