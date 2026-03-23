@@ -20,8 +20,8 @@ public class Estudante {
     private String nivelEnsino;
     private String telefone;
     private String dataDeIngresso;
-    private String SemestreInicial;
-    private String SituancaoAcademica;
+    private String semestreInicial;
+    private String situancaoAcademica;
     private String digito;
 
     public Estudante() {
@@ -47,5 +47,35 @@ public class Estudante {
 
     public static void setMatricula(String digito) {
         digito = digito;
+    }
+    public static void dataDenascimento(){
+    
+    }
+    public static void cpf(){
+        
+    }
+    public static void genero(){s
+        
+    }
+    public static void email(){
+        
+    }
+    public static void nivelDeEnsino(){
+        
+    }
+    public static void telefone(){
+        
+    }
+    public static void dataDeIngresso(){
+        
+    }
+    public static void semestreInicial(){
+        
+    }
+    public static void situancaoAcademica(){
+        
+    }
+    public static void digito(){
+        
     }
 }
